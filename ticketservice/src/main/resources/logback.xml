@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds">
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework" level="ERROR" appender-ref="FILE"/>
+    <logger name="org.hibernate" level="ERROR" appender-ref="FILE"/>
+</configuration>
